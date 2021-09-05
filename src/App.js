@@ -1,6 +1,5 @@
 import './App.css';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { Container } from '@material-ui/core';
 
 function App() {
@@ -9,8 +8,11 @@ function App() {
       <div className='App-header'>
         Welcome to my portfolio
       </div>
-      <div>
+      <div className='App-body'>
         Body
+      </div>
+      <div className='App-footer'>
+        footer
       </div>
     </Container>
   );
