@@ -14,7 +14,7 @@ import Menu from '@mui/material/Menu';
 
 import '../../views/standard.css';
 
-export default function MenuAppBar() {
+export default function MenuAppBar(props) {
   const [auth, setAuth] = React.useState(true);
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -56,7 +56,7 @@ export default function MenuAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Photos
+            {props.title}
           </Typography>
           {auth && (
             <div>
