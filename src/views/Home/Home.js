@@ -9,7 +9,7 @@ import { Container, Typography, Avatar } from '@material-ui/core';
 const Home = () => {
     return (
 
-        <Container maxWidth="sm">
+        <Container>
             <MenuAppBar/>
             <div className='page-body'>
                 <Avatar alt='Oliver Bullock' src="static/images/oliver-bullock-avatar.png" />
