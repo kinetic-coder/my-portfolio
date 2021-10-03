@@ -1,3 +1,12 @@
+# My Portfolio
+
+This site is used to showcase me and the accomplishments that I have achieved.
+
+It has been created using React and is deployed and hosted using Netlify.
+
+Last build status from Netlify is as follows:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6e4b43db-8e95-41b2-bd8b-e6472639a3f3/deploy-status)](https://app.netlify.com/sites/pedantic-hermann-774fae/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

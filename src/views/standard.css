@@ -35,3 +35,10 @@
     font-size: calc(10px + 2vmin);
     color: white;
   }
+
+  .news-grid { 
+    border-left: auto;
+    border-right: auto;
+    width:10px;
+    padding: 10%;
+  }

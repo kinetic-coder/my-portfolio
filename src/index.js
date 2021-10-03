@@ -1,16 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Home from './views/Home';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import App from './App'
+import './index.css';
 
 ReactDOM.render(
-  <Router basename="/">
-    <Switch>
-      <Route path="/" component={Home} />
-    </Switch>
-  </Router>,
+  <App/>,
   document.getElementById('root')
 );
 

@@ -1,20 +1,18 @@
-import './App.css';
+import React from 'react';
+import Home from './views/Home';
+import DigitalMakerNews from './views/DigitalMakerNews';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import { Container } from '@material-ui/core';
+import './index.css';
 
-function App() {
+const App = () => {
   return (
-    <Container maxWidth="sm">
-      <div className='App-header'>
-        Welcome to my portfolio
-      </div>
-      <div className='App-body'>
-        Body
-      </div>
-      <div className='App-footer'>
-        footer
-      </div>
-    </Container>
+    <Router basename="/">
+      <Switch>
+        <Route path="/DigitalMakersNews" component={DigitalMakerNews} />
+        <Route path="/" exact component={Home} />
+      </Switch>
+    </Router>
   );
 }
 
