@@ -1,18 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Home from './views/Home';
-import DigitalMakerNews from './views/News/DigitalMakerNews';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import App from './App'
+import './index.css';
 
 ReactDOM.render(
-  <Router basename="/">
-    <Switch>
-      <Route path="/DigitalMakersNews" component={DigitalMakerNews} />
-      <Route path="/" exact component={Home} />
-    </Switch>
-  </Router>,
+  <App/>,
   document.getElementById('root')
 );
 

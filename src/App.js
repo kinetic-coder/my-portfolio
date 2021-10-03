@@ -1,31 +1,18 @@
-import './App.css';
+import React from 'react';
+import Home from './views/Home';
+import DigitalMakerNews from './views/DigitalMakerNews';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import { Container } from '@mui/material`';
+import './index.css';
 
-function App() {
+const App = () => {
   return (
-    <Container maxWidth="sm">
-      <div className='App-header'>
-        Welcome to my portfolio
-      </div>
-      <div className='App-body'>
-        <Grid container spacing={2}>
-          <Grid item xs={4}>
-            1
-          </Grid>
-          <Grid item xs={4}>
-            2
-          </Grid>
-          <Grid item xs={4}>
-            3
-          </Grid>
-
-        </Grid>
-      </div>
-      <div className='App-footer'>
-        footer
-      </div>
-    </Container>
+    <Router basename="/">
+      <Switch>
+        <Route path="/DigitalMakersNews" component={DigitalMakerNews} />
+        <Route path="/" exact component={Home} />
+      </Switch>
+    </Router>
   );
 }
 

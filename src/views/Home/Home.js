@@ -5,8 +5,8 @@ import MenuAppBar from '../../components/MenuAppBar';
 
 import '../standard.css';
 
-import { Avatar, Container, Grid, Typography } from '@mui/material';
-import NewsPreview from '../../components/NewsPreview/NewsPreview';
+import { Avatar, Container, Grid, Typography } from '@material-ui/core';
+import NewsPreview from '../../components/NewsPreview';
 
 const Home = () => {
 
