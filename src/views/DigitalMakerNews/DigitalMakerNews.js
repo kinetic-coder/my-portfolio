@@ -14,7 +14,7 @@ const DigitalMakerNews = () => {
                 <Typography variant="body1">
                     I am an assistant Section Leader in my local Beaver group who are aged between 6 and 8 years old.Beavers have a
                     fantastic selection of badges that are designed to challenge the young people to get involved in various
-                    skills, activities and adventures.One of these badges is the Digital Makers badge.
+                    skills, activities and adven0tures.One of these badges is the Digital Makers badge.
                 </Typography>
                 <Typography>
                     As part of the badge, Beavers are expected to complete the following:
