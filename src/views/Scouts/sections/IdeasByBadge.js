@@ -2,9 +2,10 @@ import React from 'react';
 
 const IdeasByBadge = () => {
     return (
-        <div>
-            Ideas by badge (search facility)
-        </div>
+        
+            <div className='page-body'>
+                Ideas by badge
+            </div>
     );
 }
 
