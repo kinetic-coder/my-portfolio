@@ -27,6 +27,16 @@ const Home = () => {
                     have done or currently working on.
                 </Typography>
                 <Grid container spacing={10} className="news-grid">
+
+<Grid item xs={6}>
+                        <NewsPreview
+                            subjectImage="static/images/scouts.jpg"
+                            subject="The Boys Network"
+                            description="Monthly mentoring sessions with Yr 10 and 11 high school lads."
+                            nextActionText="read more"
+                            nextAction={() => navigateTo('/TheBoysNetwork')}
+                        />
+                    </Grid>
                     <Grid item xs={6}>
                         <NewsPreview
                             subjectImage="static/images/scouts.jpg"
