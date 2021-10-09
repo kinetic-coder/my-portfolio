@@ -3,7 +3,7 @@ import Home from './views/Home';
 
 import DigitalMakerNews from './views/DigitalMakerNews';
 import Scouts from './views/Scouts/ScoutsView';
-Import TheBoysNetwork from './views/TheBoysNetworkView';
+import TheBoysNetwork from './views/TheBoysNetworkView';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 

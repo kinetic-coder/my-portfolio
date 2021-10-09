@@ -5,7 +5,7 @@ import MenuAppBar from '../../components/MenuAppBar';
 
 import '../standard.css';
 
-import { Avatar, Container, Grid, Typography } from '@material-ui/core';
+import { Container, Grid, Typography } from '@material-ui/core';
 import NewsPreview from '../../components/NewsPreview';
 
 const Home = () => {
@@ -13,24 +13,30 @@ const Home = () => {
     const history = useHistory();
 
     const navigateTo = (url) => {
-        history.push(url);        
+        history.push(url);
     }
 
     return (
 
         <Container maxWidth="lg">
-            <MenuAppBar title="My Portfolio"/>
+            <MenuAppBar title="My Portfolio" />
             <div className='page-body'>
-                <Avatar alt='Oliver Bullock' src="static/images/oliver-bullock-avatar.png" />
-                <Typography>
-                    I've created this site to provide a brief overview of all that I
-                    have done or currently working on.
+                <img src="static/images/oliver-bullock-avatar.png" style={{ width: '15%', height: '15%' }} />
+                <Typography variant="h3">
+                    Oliver Bullock
+                </Typography>
+                <Typography variant="h5">
+                    Software Engineering Team Leader
+                </Typography>
+                <Typography variant="h5" color="light blue">
+                    Welcome to my portfolio site. I will have put this together to share 
+                    some of my achievements, interests and projects.
                 </Typography>
                 <Grid container spacing={10} className="news-grid">
 
-<Grid item xs={6}>
+                    <Grid item xs={6}>
                         <NewsPreview
-                            subjectImage="static/images/scouts.jpg"
+                            subjectImage="static/images/TheBoysNetwork.jpg"
                             subject="The Boys Network"
                             description="Monthly mentoring sessions with Yr 10 and 11 high school lads."
                             nextActionText="read more"
@@ -69,7 +75,7 @@ const Home = () => {
                     </Grid>
 
                     <Grid item xs={6}>
-                    <NewsPreview
+                        <NewsPreview
                             subjectImage="static/images/code-school.jpg"
                             subject="Code Club"
                             description="Provided a basic web development class covering the basics of HTML, JavaScript and CSS to 
