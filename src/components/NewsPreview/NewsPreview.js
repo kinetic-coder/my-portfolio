@@ -5,6 +5,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@material-ui/core';
 
+import './NewsPreview.css';
+
 // Properties include:
 // description
 // subject
@@ -22,11 +24,11 @@ export default function NewsPreview (props) {
           image={props.subjectImage}
           alt="green iguana"
         />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+        <CardContent tooltip={props.description} tooltipsStyle="primary">
+          <Typography  variant="h5" component="div" className="newsTitle">
             {props.subject}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" className="newsDescription">
             {props.description}
           </Typography>
         </CardContent>
