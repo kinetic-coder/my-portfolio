@@ -53,6 +53,12 @@ const Home = () => {
             img: 'static/images/code-school.jpg', 
             pageUrl: '/code-club' 
         },
+        { 
+            subject: 'Projects', 
+            description: createTeaser('Sample applications I have created in my spare time.', STANDARD_TEASER_LENGTH), 
+            img: 'static/images/home-work.jpg', 
+            pageUrl: '/projects ' 
+        },
     ]
 
     const navigateTo = (url) => {

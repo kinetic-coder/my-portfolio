@@ -6,6 +6,7 @@ const ProjectsView = () => {
     return (
         <>
             <Link href="/Projects/HomeFinances">Home Finances</Link>
+            <Link href="/Projects/achievements">Achievements data driven Demo</Link>
         </>
     )
 }
