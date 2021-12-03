@@ -23,6 +23,12 @@ const Home = () => {
     const STANDARD_TEASER_LENGTH = 100;
 
     const newsItems = [
+        {
+            subject: 'Chorley District Beavers Christingle', 
+            description: createTeaser('Organised a Christingle for Chorley District Beavers', STANDARD_TEASER_LENGTH), 
+            img: 'static/images/scouts.jpg', 
+            pageUrl: '/DistrictChristingle'
+        },
         { 
             subject: 'The Boys Network', 
             description: createTeaser('Monthly mentoring session with highschool lads from year 11 and year 12', STANDARD_TEASER_LENGTH), 
