@@ -29,7 +29,7 @@ const Achievements = () => {
 
     const history = useHistory();
 
-    // Used to create a teaser with a set limit and then include dot dot dot :)
+    // Used to create a teaser with a set limit and then include dot dot dot 
     const createTeaser = (description, length) => {
         let newTeaser = description.toString();
         newTeaser = newTeaser.substring(0, length)
