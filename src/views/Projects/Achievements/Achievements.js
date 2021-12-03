@@ -65,7 +65,7 @@ const Achievements = () => {
                                 <NewsPreview
                                     key={index}
                                     subjectImage={item.img}
-                                    subject={item.subject}
+                                    subject={createTeaser(item.subject, STANDARD_TEASER_LENGTH)}
                                     description={item.description}
                                     nextActionText="read more"
                                     nextAction={() => navigateTo(item.pageUrl)}
