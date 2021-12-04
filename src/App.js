@@ -8,6 +8,7 @@ import TheBoysNetwork from './views/TheBoysNetworkView';
 import ProjectsView from './views/Projects/ProjectsView';
 import HomeFinancesView from './views/Projects/HomeFinances/HomeFinancesView';
 import Achievements from './views/Projects/Achievements/Achievements';
+import DistrictChristingleNews from './views/DistrictChristingleNews';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/projects/homeFinances" component={HomeFinancesView} />
         <Route path="/projects/achievements" component={Achievements}/>
         <Route path="/projects" component={ProjectsView} />
+        <Route path="/DistrictChristingle" component={DistrictChristingleNews}/>
         <Route path="/" exact component={Home} />
       </Switch>
     </Router>
