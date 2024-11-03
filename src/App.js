@@ -1,33 +1,24 @@
-import React from 'react';
-import Home from './views/Home';
+import logo from './logo.svg';
+import './App.css';
 
-import DigitalMakerNews from './views/DigitalMakerNews';
-import Scouts from './views/Scouts/ScoutsView';
-import TheBoysNetwork from './views/TheBoysNetworkView';
-
-import ProjectsView from './views/Projects/ProjectsView';
-import HomeFinancesView from './views/Projects/HomeFinances/HomeFinancesView';
-import Achievements from './views/Projects/Achievements/Achievements';
-import DistrictChristingleNews from './views/DistrictChristingleNews';
-
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
-import './index.css';
-
-const App = () => {
+function App() {
   return (
-    <Router basename="/">
-      <Switch>
-        <Route path="/TheBoysNetwork" component={TheBoysNetwork} />
-        <Route path="/DigitalMakersNews" component={DigitalMakerNews} />
-        <Route path="/Scouts" component={Scouts} />
-        <Route path="/projects/homeFinances" component={HomeFinancesView} />
-        <Route path="/projects/achievements" component={Achievements}/>
-        <Route path="/projects" component={ProjectsView} />
-        <Route path="/DistrictChristingle" component={DistrictChristingleNews}/>
-        <Route path="/" exact component={Home} />
-      </Switch>
-    </Router>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
 }
 
