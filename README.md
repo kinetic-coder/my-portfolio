@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Code base status
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=kinetic-coder_my-portfolio&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=kinetic-coder_my-portfolio)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=kinetic-coder_my-portfolio&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=kinetic-coder_my-portfolio)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=kinetic-coder_my-portfolio&metric=coverage)](https://sonarcloud.io/summary/new_code?id=kinetic-coder_my-portfolio)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=kinetic-coder_my-portfolio&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=kinetic-coder_my-portfolio)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +74,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
