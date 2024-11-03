@@ -22,5 +22,3 @@ jobs:
         uses: bitovi/github-actions-react-to-github-pages@v1.2.4
         with:
           path: build
-    environment:
-      GITHUB_PAGES_URL: ${{ steps.build-publish.outputs.page_url }}
